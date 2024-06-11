@@ -1,0 +1,115 @@
+.card{
+    
+    width: 300px;
+    border-radius: 30px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.avatar{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.avatar img{
+    margin-top: 8px;
+    width: 200px;
+    height: 190px;
+}
+.card-name{
+    margin-top: 15px;
+    margin-bottom:15px;
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-family:sans-serif
+}
+
+.card-icon{
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.card-icon img{
+    width: 25px;
+    height: 25px;
+}
+.card-icon img:hover{
+   
+    border-radius: 150%;
+   box-shadow: 3px 6px 10px 4px rgba(247, 133, 133, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+
+
+.message , .phone , .socialmedia{
+    width: 300px;
+    display: flex;
+    height: 25px;
+    margin-top: 5px;
+    
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.message img{
+    width: 20px;
+    height: 20px;
+   
+}
+.phone img{
+    width: 20px;
+    height: 20px;
+   
+}
+.socialmedia img{
+    width: 20px;
+    height: 20px;
+}
+.card-address {
+    
+    width: 200px;
+    overflow: hidden;
+   
+}
+.card-address , .card-linkaddress, .card-mobile p{
+    font-size: 15px;
+    color: rgb(112, 110, 108);
+}
+.card-linkaddress {
+    
+    width: 200px;
+    overflow: hidden;
+   
+}
+.card-mobile {
+   
+    width: 200px;
+    overflow: hidden;
+   
+}
+.message{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
